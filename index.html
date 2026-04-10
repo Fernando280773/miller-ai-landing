@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miller AI Delivery — Join Free | Lower Commission Than Just Eat</title>
+  <meta name="description" content="Partner your restaurant with Miller AI Delivery. Only 10% commission, free to join, faster payouts. Drivers earn £4.99 per delivery. WhatsApp ordering. All UK." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://milleraidelivery.co.uk/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Miller AI Delivery — Join Free | Lower Commission Than Just Eat" />
+  <meta property="og:description" content="10% commission. Free to join. WhatsApp ordering. Faster payouts. UK-wide." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://milleraidelivery.co.uk/" />
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://milleraidelivery.co.uk/#org",
+        "name": "Miller AI Delivery",
+        "url": "https://milleraidelivery.co.uk",
+        "description": "UK-wide delivery platform for restaurants, grocery and taxi. 10% commission. Free to join. WhatsApp ordering.",
+        "areaServed": { "@type": "Country", "name": "United Kingdom" },
+        "serviceType": ["Food Delivery", "Grocery Delivery", "Taxi"],
+        "sameAs": []
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://milleraidelivery.co.uk/#website",
+        "name": "Miller AI Delivery",
+        "url": "https://milleraidelivery.co.uk"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is it free to join Miller AI Delivery?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Restaurants and drivers both join for free. There are no monthly fees or setup costs." } },
+          { "@type": "Question", "name": "What commission does Miller AI charge?", "acceptedAnswer": { "@type": "Answer", "text": "10% commission per order plus a 50p service charge. No monthly fees. No hidden costs." } },
+          { "@type": "Question", "name": "How much do Miller AI drivers earn?", "acceptedAnswer": { "@type": "Answer", "text": "Drivers earn £4.99 per delivery for up to 3 pickup locations, with £1 extra for a 4th location." } },
+          { "@type": "Question", "name": "How does WhatsApp ordering work?", "acceptedAnswer": { "@type": "Answer", "text": "Customers message the business WhatsApp number to place an order. Miller AI handles routing, confirmation and driver dispatch automatically." } },
+          { "@type": "Question", "name": "Where does Miller AI operate?", "acceptedAnswer": { "@type": "Answer", "text": "UK-wide." } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green: #3ab96a;
+      --green-dark: #28a057;
+      --green-light: #edfbf3;
+      --white: #ffffff;
+      --black: #111111;
+      --text: #1c1c1c;
+      --text-muted: #5a5a5a;
+      --border: #e2e8f0;
+      --radius: 12px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    /* ─── BUTTONS ─── */
+    .btn-primary {
+      display: inline-block;
+      background: var(--green);
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      white-space: nowrap;
+    }
+    .btn-primary:hover { background: var(--green-dark); transform: translateY(-1px); }
+
+    .btn-outline {
+      display: inline-block;
+      background: transparent;
+      color: var(--green);
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 15px;
+      border: 2px solid var(--green);
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .btn-outline:hover { background: var(--green); color: #fff; transform: translateY(-1px); }
+
+    .btn-white {
+      display: inline-block;
+      background: #fff;
+      color: var(--green-dark);
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .btn-white:hover { background: var(--green-light); transform: translateY(-1px); }
+
+    .btn-white-outline {
+      display: inline-block;
+      background: transparent;
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 15px;
+      border: 2px solid rgba(255,255,255,0.7);
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .btn-white-outline:hover { background: rgba(255,255,255,0.15); transform: translateY(-1px); }
+
+    /* ─── HEADER ─── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 18px;
+      color: var(--text);
+      flex-shrink: 0;
+    }
+
+    .logo-icon {
+      width: 38px;
+      height: 38px;
+      background: var(--green);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .header-ctas { display: flex; gap: 10px; align-items: center; }
+    .header-ctas .btn-primary { padding: 10px 20px; font-size: 14px; }
+    .header-ctas .btn-outline { padding: 10px 20px; font-size: 14px; }
+
+    /* ─── HERO ─── */
+    .hero {
+      background: linear-gradient(135deg, #0d3d24 0%, #1a6b3f 50%, #2a9a56 100%);
+      color: #fff;
+      padding: 80px 20px 90px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(28px, 5vw, 52px);
+      font-weight: 900;
+      line-height: 1.15;
+      max-width: 800px;
+      margin: 0 auto 20px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero h1 span { color: #7eeaa8; }
+
+    .hero-sub {
+      font-size: clamp(16px, 2.5vw, 20px);
+      max-width: 580px;
+      margin: 0 auto 36px;
+      opacity: 0.9;
+      line-height: 1.7;
+    }
+
+    .hero-btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      justify-content: center;
+      margin-bottom: 28px;
+    }
+
+    .hero-trust {
+      font-size: 14px;
+      opacity: 0.75;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6px 16px;
+    }
+
+    .hero-trust span::before { content: "·"; margin-right: 16px; opacity: 0.5; }
+    .hero-trust span:first-child::before { display: none; }
+
+    /* ─── TRUST BAR ─── */
+    .trust-bar {
+      background: var(--green);
+      color: #fff;
+      padding: 16px 20px;
+      overflow: hidden;
+    }
+
+    .trust-bar-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px 28px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .trust-item {
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* ─── SECTIONS ─── */
+    section { padding: 80px 20px; }
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+
+    .section-label {
+      display: inline-block;
+      background: var(--green-light);
+      color: var(--green-dark);
+      padding: 6px 14px;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    h2 {
+      font-size: clamp(26px, 4vw, 42px);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 16px;
+      letter-spacing: -0.3px;
+    }
+
+    .section-sub {
+      font-size: 18px;
+      color: var(--text-muted);
+      max-width: 560px;
+      margin-bottom: 48px;
+      line-height: 1.7;
+    }
+
+    /* ─── TWO-PATH ─── */
+    .two-path { background: var(--green-light); text-align: center; }
+
+    .path-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .path-card {
+      background: #fff;
+      border-radius: var(--radius);
+      padding: 40px 32px;
+      box-shadow: var(--shadow);
+      border: 2px solid transparent;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .path-card:hover { border-color: var(--green); transform: translateY(-4px); }
+
+    .path-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .path-card h3 {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .path-card p {
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    /* ─── BENEFITS ─── */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-bottom: 48px;
+    }
+
+    .benefit-card {
+      background: var(--green-light);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+    }
+
+    .benefit-icon { font-size: 32px; margin-bottom: 12px; }
+    .benefit-card h4 { font-size: 17px; font-weight: 800; margin-bottom: 8px; }
+    .benefit-card p { font-size: 15px; color: var(--text-muted); line-height: 1.6; }
+
+    /* ─── HOW IT WORKS ─── */
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 40px;
+      max-width: 480px;
+    }
+
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .step-num {
+      width: 36px;
+      height: 36px;
+      background: var(--green);
+      color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 15px;
+      flex-shrink: 0;
+    }
+
+    .step p { font-size: 16px; color: var(--text-muted); padding-top: 6px; line-height: 1.5; }
+
+    /* ─── COMPARISON TABLE ─── */
+    .comparison-wrap {
+      overflow-x: auto;
+      margin: 48px 0;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      min-width: 500px;
+    }
+
+    thead th {
+      padding: 16px 20px;
+      text-align: left;
+      font-size: 15px;
+      font-weight: 800;
+      border-bottom: 2px solid var(--border);
+      background: #fafafa;
+    }
+
+    thead th:first-child { background: #fafafa; }
+
+    thead th.highlight {
+      background: var(--green);
+      color: #fff;
+      border-bottom-color: var(--green-dark);
+    }
+
+    tbody td {
+      padding: 14px 20px;
+      font-size: 15px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+
+    tbody tr:last-child td { border-bottom: none; }
+    tbody td:first-child { font-weight: 600; color: var(--text-muted); }
+
+    td.highlight {
+      background: var(--green-light);
+      font-weight: 800;
+      color: var(--green-dark);
+    }
+
+    .check { color: var(--green); font-size: 18px; }
+    .cross { color: #ccc; font-size: 18px; }
+
+    /* ─── DRIVERS SECTION ─── */
+    .drivers-section { background: var(--green-light); }
+
+    /* ─── WHY MILLER AI ─── */
+    .why-section {
+      background: linear-gradient(135deg, #0d3d24 0%, #1a6b3f 100%);
+      color: #fff;
+    }
+
+    .why-section h2 { color: #fff; }
+    .why-section .section-sub { color: rgba(255,255,255,0.8); }
+
+    .why-body {
+      font-size: 18px;
+      line-height: 1.8;
+      opacity: 0.9;
+      max-width: 680px;
+      margin-bottom: 56px;
+    }
+
+    .why-body p { margin-bottom: 16px; }
+
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .stat-card {
+      text-align: center;
+      background: rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 32px 20px;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .stat-num {
+      font-size: clamp(36px, 5vw, 52px);
+      font-weight: 900;
+      color: #7eeaa8;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 15px;
+      opacity: 0.8;
+      font-weight: 600;
+    }
+
+    /* ─── SERVICES ─── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 40px;
+    }
+
+    .service-card {
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px 24px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .service-card:hover { border-color: var(--green); transform: translateY(-4px); }
+    .service-icon { font-size: 40px; margin-bottom: 16px; }
+    .service-card h3 { font-size: 18px; font-weight: 800; margin-bottom: 10px; }
+    .service-card p { font-size: 15px; color: var(--text-muted); line-height: 1.6; }
+
+    /* ─── FAQ ─── */
+    .faq-section { background: #fafafa; }
+
+    .faq-list { max-width: 720px; margin-top: 40px; }
+
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      text-align: left;
+      padding: 20px 0;
+      font-size: 17px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      color: var(--text);
+    }
+
+    .faq-question:hover { color: var(--green); }
+
+    .faq-arrow {
+      font-size: 20px;
+      transition: transform 0.2s;
+      color: var(--green);
+      flex-shrink: 0;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 0 0 20px;
+      font-size: 16px;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    .faq-item.open .faq-answer { display: block; }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+
+    /* ─── FINAL CTA ─── */
+    .final-cta {
+      background: var(--green);
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .final-cta h2 { color: #fff; margin-bottom: 12px; }
+    .final-cta p { font-size: 18px; opacity: 0.9; margin-bottom: 36px; }
+    .final-cta-btns { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--black);
+      color: rgba(255,255,255,0.7);
+      padding: 48px 20px 32px;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .footer-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 32px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 24px;
+    }
+
+    .footer-brand { max-width: 280px; }
+    .footer-brand .logo { color: #fff; margin-bottom: 12px; }
+    .footer-brand p { font-size: 14px; line-height: 1.7; }
+
+    .footer-links { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .footer-links a {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      transition: color 0.2s;
+    }
+    .footer-links a:hover { color: var(--green); }
+
+    .footer-bottom {
+      font-size: 13px;
+      color: rgba(255,255,255,0.4);
+    }
+
+    /* ─── MODAL ─── */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 200;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: #fff;
+      border-radius: 16px;
+      padding: 40px 36px;
+      max-width: 520px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: var(--text-muted);
+    }
+
+    .modal h3 { font-size: 24px; font-weight: 800; margin-bottom: 8px; }
+    .modal p { font-size: 15px; color: var(--text-muted); margin-bottom: 24px; }
+
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      color: var(--text);
+    }
+
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      padding: 12px 16px;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      font-size: 15px;
+      color: var(--text);
+      background: #fff;
+      transition: border-color 0.2s;
+      outline: none;
+      font-family: inherit;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus { border-color: var(--green); }
+
+    .form-submit {
+      width: 100%;
+      padding: 14px;
+      background: var(--green);
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: inherit;
+    }
+
+    .form-submit:hover { background: var(--green-dark); }
+    .form-submit:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    .form-success {
+      display: none;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .form-success .tick { font-size: 56px; margin-bottom: 16px; }
+    .form-success h4 { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+    .form-success p { color: var(--text-muted); }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 768px) {
+      section { padding: 60px 20px; }
+
+      .header-ctas .btn-outline { display: none; }
+
+      .path-cards { grid-template-columns: 1fr; }
+      .benefits-grid { grid-template-columns: 1fr; }
+      .stats-row { grid-template-columns: 1fr; gap: 16px; }
+      .services-grid { grid-template-columns: 1fr; }
+
+      .logo span { display: none; }
+
+      .modal { padding: 32px 24px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero { padding: 60px 20px 70px; }
+      .hero-btns { flex-direction: column; align-items: center; }
+      .final-cta-btns { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══ -->
+  <header>
+    <div class="header-inner">
+      <a href="/" class="logo">
+        <div class="logo-icon">🚀</div>
+        <span>Miller AI Delivery</span>
+      </a>
+      <div class="header-ctas">
+        <a href="#restaurants" class="btn-outline" onclick="smoothScroll('#restaurants')">Partner With Us</a>
+        <a href="#drivers" class="btn-primary" onclick="smoothScroll('#drivers')">Become a Driver</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="section-inner">
+      <h1>The Delivery Platform That Doesn't Take <span>All Your Money</span></h1>
+      <p class="hero-sub">
+        Miller AI Delivery charges just <strong>10% commission</strong> — not 20, not 30%.
+        Free to join for restaurants and drivers. WhatsApp ordering.
+        Faster payouts. All UK.
+      </p>
+      <div class="hero-btns">
+        <a href="#restaurants" class="btn-white">Partner Your Restaurant — Free</a>
+        <a href="#drivers" class="btn-white-outline">Become a Driver</a>
+      </div>
+      <div class="hero-trust">
+        <span>No monthly fees</span>
+        <span>No lock-in</span>
+        <span>Free to join</span>
+        <span>UK-wide</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ TRUST BAR ═══ -->
+  <div class="trust-bar">
+    <div class="trust-bar-inner">
+      <div class="trust-item">✅ 10% commission only</div>
+      <div class="trust-item">✅ Free to join</div>
+      <div class="trust-item">✅ WhatsApp ordering</div>
+      <div class="trust-item">✅ Faster payouts</div>
+      <div class="trust-item">✅ All UK</div>
+    </div>
+  </div>
+
+  <!-- ═══ TWO-PATH ═══ -->
+  <section class="two-path">
+    <div class="section-inner" style="text-align:center;">
+      <h2>Who Are You?</h2>
+      <div class="path-cards">
+        <div class="path-card">
+          <div class="path-icon">🍽️</div>
+          <h3>I'm a restaurant or business</h3>
+          <p>I want more delivery orders without losing profit to high fees.</p>
+          <a href="#restaurants" class="btn-primary">Partner With Us — Free</a>
+        </div>
+        <div class="path-card">
+          <div class="path-icon">🚗</div>
+          <h3>I'm a driver</h3>
+          <p>I want flexible work with clear, fair earnings.</p>
+          <a href="#drivers" class="btn-primary">Become a Driver</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOR RESTAURANTS ═══ -->
+  <section id="restaurants">
+    <div class="section-inner">
+      <span class="section-label">For Restaurants</span>
+      <h2>Keep 90% of Every Order</h2>
+      <p class="section-sub">
+        Just Eat charges up to 30%. Uber Eats charges more.<br>
+        Miller AI charges 10% — and nothing else.
+      </p>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">£</div>
+          <h4>Lower Commission. Every Order.</h4>
+          <p>10% commission + 50p service charge per order. No monthly fees. No setup costs. No surprises.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">💬</div>
+          <h4>WhatsApp Ordering — No App Needed</h4>
+          <p>Your customers already use WhatsApp. They message to order, we handle the rest. Zero friction, more orders.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">⚡</div>
+          <h4>Faster Payouts</h4>
+          <p>No waiting weeks to access your money. Miller AI pays out faster than any major platform.</p>
+        </div>
+      </div>
+
+      <h3 style="font-size:22px; font-weight:800; margin-bottom:24px;">How It Works</h3>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <p><strong>Sign up free</strong> — takes minutes, no paperwork</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <p><strong>Go live</strong> — customers order via WhatsApp</p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <p><strong>Get paid</strong> — faster payouts, lower fees</p>
+        </div>
+      </div>
+
+      <a href="#" onclick="openModal(); return false;" class="btn-primary" style="margin-bottom:56px; display:inline-block;">
+        Partner Your Restaurant — It's Free
+      </a>
+
+      <!-- Comparison Table -->
+      <h3 style="font-size:22px; font-weight:800; margin-bottom:20px;">How We Compare</h3>
+      <div class="comparison-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th class="highlight">Miller AI</th>
+              <th>Just Eat</th>
+              <th>Uber Eats</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Commission</td>
+              <td class="highlight">10%</td>
+              <td>14–30%+</td>
+              <td>20–30%+</td>
+            </tr>
+            <tr>
+              <td>Monthly fee</td>
+              <td class="highlight">£0</td>
+              <td>Varies</td>
+              <td>Varies</td>
+            </tr>
+            <tr>
+              <td>Setup cost</td>
+              <td class="highlight">£0</td>
+              <td>£0–£399</td>
+              <td>£0</td>
+            </tr>
+            <tr>
+              <td>WhatsApp ordering</td>
+              <td class="highlight"><span class="check">✓</span></td>
+              <td><span class="cross">✗</span></td>
+              <td><span class="cross">✗</span></td>
+            </tr>
+            <tr>
+              <td>Payout speed</td>
+              <td class="highlight">Fast</td>
+              <td>2+ weeks</td>
+              <td>1–2 weeks</td>
+            </tr>
+            <tr>
+              <td>Free to join</td>
+              <td class="highlight"><span class="check">✓</span></td>
+              <td>Sometimes</td>
+              <td><span class="check">✓</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOR DRIVERS ═══ -->
+  <section id="drivers" class="drivers-section">
+    <div class="section-inner">
+      <span class="section-label">For Drivers</span>
+      <h2>Earn £4.99 Per Delivery. Simple.</h2>
+      <p class="section-sub">
+        No surge pricing games. No algorithm guessing.<br>
+        Just clear earnings, flexible hours, and free sign-up.
+      </p>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">💰</div>
+          <h4>Clear Earnings, Every Time</h4>
+          <p>£4.99 per delivery for up to 3 pickup locations. 4th location? An extra £1. You always know what you're earning before you accept.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">📱</div>
+          <h4>Free to Join. Start Fast.</h4>
+          <p>Download the driver app, sign up for free, and start taking deliveries. No complex vetting, no long waiting periods.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">🕐</div>
+          <h4>Work When You Want</h4>
+          <p>No shifts. No minimum hours. Log in when you want to earn, log out when you're done.</p>
+        </div>
+      </div>
+
+      <h3 style="font-size:22px; font-weight:800; margin-bottom:24px;">How It Works</h3>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <p><strong>Download the driver app</strong> — free</p>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <p><strong>Complete your profile</strong></p>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <p><strong>Start accepting deliveries</strong> and earning</p>
+        </div>
+      </div>
+
+      <a href="#" class="btn-primary" style="display:inline-block;">
+        Become a Driver — Join Free
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ WHY MILLER AI ═══ -->
+  <section class="why-section">
+    <div class="section-inner">
+      <h2>Built for the People the Big Platforms Forgot</h2>
+      <div class="why-body">
+        <p>Just Eat and Uber Eats were built to maximise their own revenue — not yours.</p>
+        <p>Miller AI was built differently. Lower commission for businesses. Clear pay for drivers. Simple WhatsApp ordering for customers.</p>
+        <p>No hidden fees. No lock-in. No nonsense.</p>
+      </div>
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-num">10%</div>
+          <div class="stat-label">Commission only</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">£4.99</div>
+          <div class="stat-label">Per delivery</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">£0</div>
+          <div class="stat-label">Monthly fees</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SERVICES ═══ -->
+  <section>
+    <div class="section-inner">
+      <h2>One Platform. Three Services.</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🍕</div>
+          <h3>Restaurant & Food Delivery</h3>
+          <p>Get your restaurant's orders delivered. Customers order via WhatsApp, drivers collect and deliver. Live tracking included.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🛒</div>
+          <h3>Grocery Delivery</h3>
+          <p>Local shops and grocers — reach customers who want their shopping delivered fast, without building your own delivery fleet.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🚕</div>
+          <h3>Taxi & Rides</h3>
+          <p>Passengers book via WhatsApp. Drivers get the job. Simple, local, reliable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FAQ ═══ -->
+  <section class="faq-section">
+    <div class="section-inner">
+      <h2>Common Questions</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Is it really free to join?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">Yes. Restaurants and drivers both join for free. There are no monthly fees or setup costs.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            What does the 10% commission cover?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">Platform access, order management, WhatsApp ordering, live tracking and customer support. Plus a 50p service charge per order.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            What if I already use Just Eat?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">Run both. Miller AI costs nothing to add and you keep 90% of every order placed through us.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            How much do drivers earn?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">£4.99 per delivery for up to 3 pickup locations, with £1 extra for a 4th location.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            Where does Miller AI operate?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">UK-wide.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            How does WhatsApp ordering work?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">Customers message your business WhatsApp number to place an order. Our system handles routing, confirmation and driver dispatch automatically.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FINAL CTA ═══ -->
+  <section class="final-cta">
+    <div class="section-inner">
+      <h2>Ready to Join?</h2>
+      <p>Free to join. Takes minutes. Start earning or saving on every order today.</p>
+      <div class="final-cta-btns">
+        <a href="#" onclick="openModal(); return false;" class="btn-white">Partner Your Restaurant — Free</a>
+        <a href="#" class="btn-white-outline">Become a Driver</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">🚀</div>
+            <span>Miller AI Delivery</span>
+          </div>
+          <p>UK-wide delivery platform for restaurants, grocers and drivers.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#" onclick="openModal(); return false;">Partner With Us</a>
+          <a href="#drivers">Become a Driver</a>
+          <a href="mailto:hello@milleraidelivery.co.uk">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Miller AI Delivery · milleraidelivery.co.uk</div>
+    </div>
+  </footer>
+
+  <!-- ═══ PARTNER MODAL ═══ -->
+  <div class="modal-overlay" id="partnerModal">
+    <div class="modal">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+
+      <div id="formContent">
+        <h3>Partner Your Restaurant</h3>
+        <p>Free to join. We'll be in touch within 24 hours to get you set up.</p>
+
+        <form id="partnerForm" onsubmit="submitForm(event)">
+          <div class="form-group">
+            <label>Restaurant Name *</label>
+            <input type="text" name="restaurantName" required placeholder="e.g. The Crown Tandoori" />
+          </div>
+          <div class="form-group">
+            <label>Your Name *</label>
+            <input type="text" name="ownerName" required placeholder="Your full name" />
+          </div>
+          <div class="form-group">
+            <label>WhatsApp / Phone Number *</label>
+            <input type="tel" name="phone" required placeholder="e.g. 07700 123456" />
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="your@email.com" />
+          </div>
+          <div class="form-group">
+            <label>Town / City *</label>
+            <input type="text" name="area" required placeholder="e.g. Manchester" />
+          </div>
+          <div class="form-group">
+            <label>Service Type *</label>
+            <select name="serviceType" required>
+              <option value="">Select a service</option>
+              <option value="Restaurant Delivery">Restaurant Delivery</option>
+              <option value="Grocery Delivery">Grocery Delivery</option>
+              <option value="Taxi & Rides">Taxi & Rides</option>
+            </select>
+          </div>
+          <button type="submit" class="form-submit" id="submitBtn">
+            Submit — It's Free
+          </button>
+        </form>
+      </div>
+
+      <div class="form-success" id="formSuccess">
+        <div class="tick">✅</div>
+        <h4>You're registered!</h4>
+        <p>Thanks for signing up. Our team will be in touch within 24 hours to get you live on Miller AI Delivery.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Smooth scroll
+    function smoothScroll(target) {
+      document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // FAQ accordion
+    function toggleFaq(btn) {
+      const item = btn.closest('.faq-item');
+      const wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
+    }
+
+    // Modal
+    function openModal() {
+      document.getElementById('partnerModal').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      document.getElementById('partnerModal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.getElementById('partnerModal').addEventListener('click', function(e) {
+      if (e.target === this) closeModal();
+    });
+
+    // Form submit
+    async function submitForm(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+
+      const form = e.target;
+      const data = {
+        restaurantName: form.restaurantName.value,
+        ownerName: form.ownerName.value,
+        phone: form.phone.value,
+        email: form.email.value,
+        area: form.area.value,
+        serviceType: form.serviceType.value
+      };
+
+      try {
+        await fetch('https://walton28071973.app.n8n.cloud/webhook/partner-signup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+      } catch(err) {
+        // Still show success — don't block the user if n8n is temporarily down
+        console.error('Signup error:', err);
+      }
+
+      document.getElementById('formContent').style.display = 'none';
+      document.getElementById('formSuccess').style.display = 'block';
+    }
+
+    // Anchor link smooth scroll for all internal links
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(e) {
+        const target = this.getAttribute('href');
+        if (target && target !== '#' && document.querySelector(target)) {
+          e.preventDefault();
+          document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
