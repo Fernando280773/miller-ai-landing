@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Miller AI Delivery</title>
+  <meta name="description" content="Miller AI Delivery privacy policy. How we collect, use and protect your personal data." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://milleraidelivery.co.uk/privacy" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green: #3ab96a;
+      --green-dark: #28a057;
+      --green-light: #edfbf3;
+      --white: #ffffff;
+      --text: #1c1c1c;
+      --text-muted: #5a5a5a;
+      --border: #e2e8f0;
+      --radius: 12px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: var(--text);
+      background: var(--white);
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    a { text-decoration: none; color: var(--green); }
+    a:hover { text-decoration: underline; }
+
+    /* ─── HEADER ─── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 20px;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 18px;
+      color: var(--text);
+      flex-shrink: 0;
+    }
+
+    .logo-icon {
+      width: 38px;
+      height: 38px;
+      background: var(--green);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 20px;
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background: var(--green);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: var(--green-dark); text-decoration: none; }
+
+    /* ─── PAGE HERO ─── */
+    .page-hero {
+      background: linear-gradient(135deg, #0d3d24 0%, #1a6b3f 50%, #2a9a56 100%);
+      color: #fff;
+      padding: 56px 20px 60px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      font-size: clamp(26px, 4vw, 42px);
+      font-weight: 900;
+      margin-bottom: 12px;
+    }
+
+    .page-hero p {
+      font-size: 16px;
+      opacity: 0.85;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+
+    /* ─── CONTENT ─── */
+    .content-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    .last-updated {
+      display: inline-block;
+      background: var(--green-light);
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 50px;
+      margin-bottom: 40px;
+    }
+
+    .section {
+      margin-bottom: 44px;
+    }
+
+    .section h2 {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--green-light);
+    }
+
+    .section p {
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+
+    .section ul {
+      padding-left: 22px;
+      margin-bottom: 12px;
+    }
+
+    .section ul li {
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .section ul li strong {
+      color: var(--text);
+    }
+
+    .contact-box {
+      background: var(--green-light);
+      border: 1px solid #b8eecf;
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-top: 48px;
+    }
+
+    .contact-box h3 {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    .contact-box p {
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .contact-box a {
+      font-weight: 600;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: #0d1f14;
+      color: rgba(255,255,255,0.6);
+      text-align: center;
+      padding: 32px 20px;
+      font-size: 14px;
+    }
+
+    footer a { color: rgba(255,255,255,0.8); }
+    footer a:hover { color: #fff; }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 600px) {
+      .content-wrap { padding: 40px 18px 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── HEADER ─── -->
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <div class="logo-icon">🛵</div>
+      Miller AI Delivery
+    </a>
+    <a href="/" class="btn-primary">Back to Home</a>
+  </div>
+</header>
+
+<!-- ─── PAGE HERO ─── -->
+<div class="page-hero">
+  <h1>Privacy Policy</h1>
+  <p>How Miller AI Delivery collects, uses, and protects your personal data.</p>
+</div>
+
+<!-- ─── CONTENT ─── -->
+<main class="content-wrap">
+
+  <span class="last-updated">Last updated: 10 April 2026</span>
+
+  <div class="section">
+    <h2>1. Who We Are</h2>
+    <p>Miller AI Delivery ("Miller AI", "we", "us") is a food and grocery delivery platform operating in the United Kingdom. We connect customers with local restaurants and independent drivers.</p>
+    <p>Data controller: <strong>Miller AI Delivery</strong>, Sunderland, England, United Kingdom.<br>
+    Contact: <a href="mailto:hello@milleraidelivery.co.uk">hello@milleraidelivery.co.uk</a></p>
+  </div>
+
+  <div class="section">
+    <h2>2. What Data We Collect</h2>
+    <p>We collect different data depending on how you use Miller AI:</p>
+
+    <p><strong>Customers</strong></p>
+    <ul>
+      <li>Phone number (for account creation and order updates)</li>
+      <li>Delivery address</li>
+      <li>Order history</li>
+      <li>Device location (only during active order tracking, with your permission)</li>
+    </ul>
+
+    <p><strong>Drivers</strong></p>
+    <ul>
+      <li>Name and email address</li>
+      <li>Phone number</li>
+      <li>GPS location (while the app is open and you are online)</li>
+      <li>Earnings and delivery history</li>
+      <li>Vehicle and licence details (for verification)</li>
+    </ul>
+
+    <p><strong>Restaurant Partners</strong></p>
+    <ul>
+      <li>Business name, address and contact details</li>
+      <li>Bank account details (for payouts)</li>
+      <li>Order and sales history</li>
+    </ul>
+
+    <p><strong>Website Visitors</strong></p>
+    <ul>
+      <li>Name and email address (if you submit a partner enquiry form)</li>
+      <li>Standard web analytics (page views, browser type) — no personal identifiers</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. How We Use Your Data</h2>
+    <ul>
+      <li><strong>To fulfil orders</strong> — routing orders to drivers and restaurants, sending confirmation messages via WhatsApp.</li>
+      <li><strong>To process payments and payouts</strong> — calculating earnings for drivers and restaurants.</li>
+      <li><strong>To provide live tracking</strong> — sharing driver location with the customer during an active delivery only.</li>
+      <li><strong>To send service notifications</strong> — order updates, delivery confirmations, and account alerts via push notification or WhatsApp.</li>
+      <li><strong>To improve the platform</strong> — analysing aggregate usage patterns to improve the app and service.</li>
+      <li><strong>To comply with legal obligations</strong> — keeping records as required by UK law.</li>
+    </ul>
+    <p>We do not sell your personal data to third parties. We do not use your data for advertising.</p>
+  </div>
+
+  <div class="section">
+    <h2>4. Location Data</h2>
+    <p><strong>Customer app:</strong> Location is only accessed if you choose to use the live order tracking screen. We do not track your location in the background.</p>
+    <p><strong>Driver app:</strong> When you are marked as "Online", your GPS location is sent to our servers every 10–15 seconds so we can assign nearby deliveries and show customers your position. Location tracking stops when you go Offline or close the app. We request background location permission solely to maintain tracking during active deliveries.</p>
+    <p>You can revoke location permissions at any time in your phone's settings. Revoking location access will prevent delivery tracking features from working.</p>
+  </div>
+
+  <div class="section">
+    <h2>5. Who We Share Data With</h2>
+    <ul>
+      <li><strong>Drivers</strong> — receive the customer's delivery address and first name when accepting a job.</li>
+      <li><strong>Restaurants</strong> — receive order details including the customer's first name and delivery address.</li>
+      <li><strong>WhatsApp / Meta</strong> — order messages are processed via the WhatsApp Business API.</li>
+      <li><strong>Google Maps</strong> — used for navigation within the driver app. Subject to Google's privacy policy.</li>
+      <li><strong>Cloud infrastructure providers</strong> — our servers are hosted on secure UK/EU cloud infrastructure.</li>
+    </ul>
+    <p>All third-party processors are bound by data processing agreements and GDPR requirements.</p>
+  </div>
+
+  <div class="section">
+    <h2>6. Data Retention</h2>
+    <ul>
+      <li>Order records: retained for 7 years (UK financial record-keeping requirements).</li>
+      <li>Account data: retained for as long as your account is active, plus 12 months after closure.</li>
+      <li>Location data: not stored permanently — used in real time and discarded after delivery completion.</li>
+      <li>Driver earnings records: retained for 7 years.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Your Rights (UK GDPR)</h2>
+    <p>Under UK data protection law, you have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> — request a copy of the personal data we hold about you.</li>
+      <li><strong>Rectification</strong> — ask us to correct inaccurate data.</li>
+      <li><strong>Erasure</strong> — ask us to delete your data ("right to be forgotten"), subject to legal retention requirements.</li>
+      <li><strong>Restriction</strong> — ask us to limit how we process your data in certain circumstances.</li>
+      <li><strong>Portability</strong> — receive your data in a machine-readable format.</li>
+      <li><strong>Objection</strong> — object to processing based on legitimate interests.</li>
+      <li><strong>Withdraw consent</strong> — where processing is based on consent (e.g. marketing), you can withdraw at any time.</li>
+    </ul>
+    <p>To exercise any of these rights, email us at <a href="mailto:privacy@milleraidelivery.co.uk">privacy@milleraidelivery.co.uk</a>. We will respond within 30 days.</p>
+    <p>You also have the right to lodge a complaint with the <strong>Information Commissioner's Office (ICO)</strong> at <a href="https://ico.org.uk" target="_blank" rel="noopener">ico.org.uk</a>.</p>
+  </div>
+
+  <div class="section">
+    <h2>8. Cookies</h2>
+    <p>Our website uses minimal cookies:</p>
+    <ul>
+      <li><strong>Strictly necessary cookies</strong> — required for the site to function (e.g. form submission security).</li>
+      <li><strong>Analytics cookies</strong> — anonymous page view data to understand how visitors use the site. No personal identifiers are stored.</li>
+    </ul>
+    <p>We do not use advertising or tracking cookies. You can disable cookies in your browser settings at any time.</p>
+  </div>
+
+  <div class="section">
+    <h2>9. Children's Privacy</h2>
+    <p>Miller AI Delivery is not intended for children under 13. We do not knowingly collect data from children. If you believe a child has provided us with personal data, contact us immediately at <a href="mailto:privacy@milleraidelivery.co.uk">privacy@milleraidelivery.co.uk</a> and we will delete it.</p>
+  </div>
+
+  <div class="section">
+    <h2>10. Security</h2>
+    <p>We protect your data using industry-standard security measures including encrypted connections (HTTPS/TLS), access controls, and secure server infrastructure. No method of transmission over the internet is 100% secure, but we take all reasonable steps to protect your personal information.</p>
+  </div>
+
+  <div class="section">
+    <h2>11. Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. We will notify users of any significant changes via the app or email. The "Last updated" date at the top of this page will always reflect the most recent version.</p>
+  </div>
+
+  <div class="contact-box">
+    <h3>Questions about your data?</h3>
+    <p>Email our data team and we'll respond within 30 days.</p>
+    <p><a href="mailto:privacy@milleraidelivery.co.uk">privacy@milleraidelivery.co.uk</a></p>
+  </div>
+
+</main>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="footer-links">
+    <a href="/">Home</a>
+    <a href="/privacy">Privacy Policy</a>
+    <a href="mailto:hello@milleraidelivery.co.uk">Contact</a>
+  </div>
+  <p>&copy; 2026 Miller AI Delivery. All rights reserved. Registered in England &amp; Wales.</p>
+</footer>
+
+</body>
+</html>
